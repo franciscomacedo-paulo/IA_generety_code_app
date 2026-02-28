@@ -1,5 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
     font-family: "Poppins", sans-serif;
     letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e4e4e7;
+}
+
+:root{
+    --font-corpo-texto: "Poppins", sans-serif;
+    --font-titulo-principal: "Roboto Slab", serif;
+}
+/*
+    * ESTILIZACAO DA TAG BODY
+*/
+body{
+    background-color: #09090b;
+    padding: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 40px;
+    color: #fafafa;
+    font-weight: bold;
+    font-family: var(--font-titulo-principal);
+    text-align: center;
+
+    & span{
+        color: #22c55e;
+    }
+}
+p{
+    color: #717171;
+    margin: 10px 0;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    max-width: 640px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    background-color: #141419;
+    color: #fafafa;
+    font-size: 16px;
+    
+}
+button{
+    width: 100%;
+    height: 46px;
+    max-width: 640px;
+    color: #09090b;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #22c55e;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    padding: 14px;
+    cursor: pointer;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: #119e45;
+    transform: translateY(-1px);
+    box-shadow: 4px 4px 8px #1c57329f;
+    
 }
