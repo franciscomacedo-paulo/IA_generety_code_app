@@ -38,7 +38,8 @@ h1{
 }
 p{
     color: #717171;
-    margin: 10px 0;
+    margin: 14px 0;
+    font-size: 17px;
 }
 textarea{
     resize: none;
@@ -65,7 +66,7 @@ button{
     background-color: #22c55e;
     border: none;
     outline: none;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 14px;
     cursor: pointer;
     transition: all 1s;
